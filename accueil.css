@@ -1,0 +1,324 @@
+/* Styles communs */
+
+body {
+    background-color: #c5bfbf;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+  }
+  
+  a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  ul, ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Styles du header */
+  
+  header {
+ 
+    background-color:  #8BC34A;
+    box-shadow: 0 2px 5px rgba(0,0,0,.2);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    height: 210px;
+  }
+  #text-titre {
+   position: absolute;
+   bottom: 0;
+   left: 50%;
+   transform: translateX(-50%);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 280px;
+   width: 100%;
+   
+  }
+  
+  .titre {
+    font-family: Roboto Condensed;
+    font-size: 65px;
+  }
+
+  #text-left {
+    position: absolute;
+    bottom: 23px;;
+    height: 70px;
+  }
+  #text-right {
+    position: absolute;
+    right: 1rem;
+    bottom: 160px;
+    height: 70px;
+    
+
+  }
+
+  #text-right img {
+    margin-bottom: 100px;
+    height: auto;
+    margin-right: 30px;
+ }
+ 
+ #img-logo {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+  width: 100%;
+  
+}
+
+#img-logo img {
+  height: auto;
+  max-width: 90px;
+}
+
+
+ .icone-leetchi img{
+  max-width: 120px;
+  
+}
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    font-size: 24px;
+  }
+  
+  nav h1 {
+    margin: 0;
+  }
+  
+  nav ul {
+    display: flex;
+  }
+  
+  nav li {
+    margin-left: 1rem;
+  }
+  
+  nav a:hover {
+    color: #ff6633;
+  }
+  
+  /* Styles du main */
+  
+  main {
+    margin-top: 5rem;
+    padding: 2rem;
+  }
+
+/* Styles de la section ancre */
+#ancre {
+  text-align: center;
+  padding: 2rem;
+  
+  margin-top: 100px; /* Ajustement de la marge pour tenir compte de la hauteur du header */
+}
+
+
+#ancre a {
+  display: inline-block; /* Ajoutez cette ligne */
+  background-color: #ff6633;
+  color: #ffffff;
+  padding: 1rem 2rem;
+  font-size: 16px;
+  border-radius: 5px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  margin-bottom: 10px;
+}
+
+#ancre a:hover {
+  background-color: #cc5500;
+}
+
+/* Styles de la section accueil */
+
+#accueil {
+  text-align: center;
+  padding: 2rem;
+  background-color: #f8f8f8;
+  margin-top: 10px; /* Ajustement de la marge pour tenir compte de la hauteur du header */
+}
+
+#accueil h2 {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+  color: #333;
+}
+
+#accueil p {
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+  color: #555;
+}
+
+#accueil a {
+  background-color: #ff6633;
+  color: #fff;
+  padding: 1rem 2rem;
+  border-radius: 5px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+#accueil a:hover {
+  background-color: #cc5500;
+}
+
+
+
+
+
+
+  /* Styles du footer */
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  
+  footer ul {
+    display: flex;
+    margin: 0;
+  }
+  
+  footer li {
+    margin-left: 1rem;
+  }
+  
+  footer a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    color: #ff6633;
+  }
+
+
+  /* Styles de la page enfants du desert */
+
+    
+  .logo-enfant {
+    float: left;
+    width: 145px; /* Modifiez la valeur selon vos besoins */
+    margin-top: 0px;
+    margin-left: 10px; /* Modifiez la valeur selon vos besoins */
+}
+/* Styles de la page histoire 4L */
+
+    
+.image-4L {
+  float: right;
+  width: 200px; /* Modifiez la valeur selon vos besoins */
+  margin-top: 0px;
+  margin-left: 10px; /* Modifiez la valeur selon vos besoins */
+}
+.image2-4L {
+  float: left;
+  width: 185px; /* Modifiez la valeur selon vos besoins */
+  margin-top: 0px;
+  margin-left: 10px; /* Modifiez la valeur selon vos besoins */
+}
+
+/* Styles de la page notre equipage */
+
+    
+.Arthur {
+  position: left;
+  text-align: left;
+  margin-left: 100px; 
+  margin-top: 100px;
+  font-size: 20px;
+  margin-bottom: 3rem;
+
+}
+ 
+.Antoine {
+  position: right;
+  text-align: right;
+  margin-right: 100px; 
+  margin-top: 100px;
+  font-size: 20px;
+  margin-bottom: 3rem;
+  /* Styles du contenu */
+
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+  
+  h1, h2, h3 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+  }
+  
+  h1 {
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  h3 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin-bottom: 1.5rem;
+  }
+  
+  a {
+    color: #ff6633;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 1.5rem;
+  }
+  
